@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="test.css">
+    <title>APPOINTMENT SCREEN</title>
+<style>
+   body{
+  font-family:Airal;
+  font-size:20pt;
+}
+h1{
+  text-align: center;
+}
+p{
+  color:yellow;
+}
+.bg{
+  background-image:url("campus Hack2Hire Teams Banner-01.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+    legend{
+        text-align: center;
+    }
+</style>
+
+
+  </head>
+  <body class="bg">
+    <h1>Banking made simple for HNIs</h1>
+    <p>Looking for some safe place to invest all your savings??</p>
+    <p>It's right here!!</p>
+    <form action="HNI.html" id="ft-form" method="POST" accept-charset="UTF-8">
+  
+  <fieldset>
+    <legend>Appointment request</legend>
+      <label>
+      Reason for appointment
+      <input type="text" name="name" required>
+    </label>
+
+    <div class="two-cols">
+      <label>
+        Date
+        <input type="date" name="Appointment request" required>
+      </label>
+      <div class="inline">
+        <label>
+          <input type="hidden" name="Morning desired" value="no">
+          <input type="checkbox" name="Morning desired" value="yes">
+          Morning
+        </label>
+        <label>
+          <input type="hidden" name="Afternoon desired" value="no">
+          <input type="checkbox" name="Afternoon desired" value="yes">
+          Afternoon
+        </label>
+      </div>
+    </div>
+    
+  </fieldset>
+
+  <div class="btns">
+    <input type="text" name="_gotcha" value="" style="display:none;">
+    <input text-align="center" type="submit" value="Submit request">
+  </div>
+</form>
+    </body>
+</html>
+    
